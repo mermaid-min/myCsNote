@@ -1,0 +1,45 @@
+#logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo if needed */
+}
+
+header {
+    height: 100px; /* Adjust this to make the banner smaller */
+    padding: 10px 20px; /* Add padding to the header */
+    background-color: rgb(55, 67, 64); /* Optional: Change background color */
+    display: flex; /* Use flexbox for positioning */
+    align-items: center; /* Vertically center the content */
+}
+body {
+    background: rgb(15, 19, 17);
+    font-family: Georgia, serif;
+    color:rgb(55, 67, 64);
+    font-size: 14px;
+}
+
+h2 {
+    color:rgb(55, 67, 64);
+    font-size: 20px;
+    text-align: center;
+}
+.empty-block {
+    width: 100%; /* Full width of its container */
+    height: 150px; /* Set height as needed */
+    background-color:rgb(15, 19, 17); /* Light gray background */
+    margin: 20px 0; /* Space above and below */
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns of equal width */
+    gap: 30px; /* Space between images */
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the grid */
+}
+
+.image-grid img {
+    width: 100%; /* Make images fill the grid cells */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop images to fit the grid cells */
+}
